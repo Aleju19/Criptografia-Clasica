@@ -16,5 +16,6 @@ construcción **Gradle**. Implementa los algoritmos de cifrado más emblemático
 * **Control de Versiones:** Git / GitHub
 
 ## 📝 Instrucciones
+Usar el jdk 21
 1. Clonar el repositorio.
 2. Ejecutar a través de la clase `Launcher`.

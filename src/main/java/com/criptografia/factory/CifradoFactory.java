@@ -7,11 +7,11 @@ public class CifradoFactory {
 
     public static Cifrado obtenerCifrado(String tipo) {
         return switch (tipo) {
-            case "Cifrado César" -> new CifradoCesar();
-            case "Cifrado Atbash" -> new CifradoAtbash();
-            case "Cifrado Vigenere" -> new CifradoVigenere();
-            case "Cifrado Rail Fence" -> new CifradoRailFence();
-            case "Cifrado Playfair" -> new CifradoPlayfair();
+            case "César" -> new CifradoCesar();
+            case "Atbash" -> new CifradoAtbash();
+            case "Vigenère" -> new CifradoVigenere();
+            case "Rail Fence" -> new CifradoRailFence();
+            case "Playfair" -> new CifradoPlayfair();
 
             default -> throw new IllegalArgumentException("Cifrado no soportado: " + tipo);
         };
